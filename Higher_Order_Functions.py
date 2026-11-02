@@ -27,3 +27,14 @@ print(max(words, key=len))
 
 for name, grade in sorted(students, key=lambda s: s[1], reverse=True):
     print(name)
+
+# exe 4
+def make_discount(percent):
+    def apply_discount(price):
+        return price * (1-(percent/100))
+    return apply_discount
+
+ten_off = make_discount(10)
+half_price = make_discount(50)
+print(ten_off(200))
+print(half_price(200))
