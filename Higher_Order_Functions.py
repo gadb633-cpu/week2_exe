@@ -10,3 +10,10 @@ def double(n):
 print(apply_to_all([1, 2, 3], double))
 print(apply_to_all([1, 2, 3], lambda n: n * n))
 print(apply_to_all([1.6, 2.4], round))
+
+# exe 2
+prices = [20, 75, 120, 45, 90]
+expensive = list(filter(lambda p: p > 50, prices))
+raised = list(map(lambda p: p + 10, expensive))
+print(expensive)
+print(raised)
