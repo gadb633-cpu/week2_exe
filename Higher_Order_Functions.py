@@ -8,3 +8,4 @@ def double(n):
 print(apply_to_all([1, 2, 3], double))
 print(apply_to_all([1, 2, 3], lambda n: n * n))
 print(apply_to_all([1.6, 2.4], round))
+
