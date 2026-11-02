@@ -38,3 +38,9 @@ ten_off = make_discount(10)
 half_price = make_discount(50)
 print(ten_off(200))
 print(half_price(200))
+
+# exe 5
+def double(n):
+    return n * 2
+print(apply_to_all([1, 2], double))
+# הבעיה שבארגומנט הפעילו את הפונקציה
