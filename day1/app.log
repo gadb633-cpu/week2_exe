@@ -1,0 +1,3 @@
+2026-11-01 15:25:10,705 DEBUG: Dividing 10 by 0
+2026-11-01 15:25:10,705 ERROR: Division by zero attempted.
+2026-11-01 15:25:47,672 DEBUG: Dividing 10 by 1
