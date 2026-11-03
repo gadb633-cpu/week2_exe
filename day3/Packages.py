@@ -6,3 +6,12 @@
 #       |stock.py
 #       |prodacts.py
 #   |main.py
+
+#  exe 2
+'''
+import inventory.products
+
+from inventory import products
+
+from inventory.products import create_product
+'''
